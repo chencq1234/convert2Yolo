@@ -120,6 +120,8 @@ python3 example.py --datasets [COCO/VOC/KITTI/UDACITY] --img_path <image_path> -
 
 >>
 ex) python3 example.py --datasets KITTI --img_path ./example/kitti/images/ --label ./example/kitti/labels/ --convert_output_path ./ --img_type ".jpg" --manipast_path ./ --cls_list_file names.txt
+python --datasets VOC --img_path example/voc/JPEG/ --label example/voc/label/ --convert_output_path example/voc/out_yolo_txt/ --img_type ".jpg" --manipast_path example/voc/manipast_path/ --cls_list_file example/voc/names.txt
+python --datasets VOC --img_path example/voc/JPEG/ --label example/voc/label/ --convert_output_path example/voc/out_yolo_txt/ --img_type ".jpg" --manipast_path example/voc/manipast_path/ --cls_list_file example/voc/voc.names
 ```
 
 ​    
